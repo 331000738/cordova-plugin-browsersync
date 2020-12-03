@@ -1,7 +1,7 @@
 # Cordova Browser-Sync Plugin
 
-[![dependencies Status](https://david-dm.org/nparashuram/cordova-plugin-browsersync/status.svg)](https://david-dm.org/nparashuram/cordova-plugin-browsersync)
-[![devDependencies Status](https://david-dm.org/nparashuram/cordova-plugin-browsersync/dev-status.svg)](https://david-dm.org/nparashuram/cordova-plugin-browsersync?type=dev)
+[![dependencies Status](https://david-dm.org/nparashuram/cordova-plugin-browsersync-xjp/status.svg)](https://david-dm.org/nparashuram/cordova-plugin-browsersync-xjp)
+[![devDependencies Status](https://david-dm.org/nparashuram/cordova-plugin-browsersync-xjp/dev-status.svg)](https://david-dm.org/nparashuram/cordova-plugin-browsersync-xjp?type=dev)
 
 Integrating [BrowserSync](http://browsersync.io) into your Cordova workflow.
 
@@ -27,17 +27,17 @@ The presence of this `--live-reload` flag triggers the live reload workflow. Wit
 This simplest way to integrate this in your Cordova workflow is to add it as a plugin
 
 ```
-cordova plugin add cordova-plugin-browsersync
+cordova plugin add cordova-plugin-browsersync-xjp
 ```
 
 and then run run the cordova with `cordova run -- --live-reload`.
 
 #### Note
 
-If you ran into the error like below when you executed `"cordova plugin add cordova-plugin-browsersync"` command,
+If you ran into the error like below when you executed `"cordova plugin add cordova-plugin-browsersync-xjp"` command,
 
 ```
-Failed to install 'cordova-plugin-browsersync': Error: Cannot find module 'npm'
+Failed to install 'cordova-plugin-browsersync-xjp': Error: Cannot find module 'npm'
 ```
 
 Please try to upgrade `npm` command version which is your system global installed with following command.
@@ -56,7 +56,7 @@ Clone this repo and run `npm run createHook` to get a `after_prepare.js`. Add th
 ```
 
 ### Integrate into your workflow
-You can also `require('cordova-plugin-browsersync')` in your node module and use the `changeHost` function and `browserSyncServer` directly in your existing workflow.
+You can also `require('cordova-plugin-browsersync-xjp')` in your node module and use the `changeHost` function and `browserSyncServer` directly in your existing workflow.
 
 ## Options
 
